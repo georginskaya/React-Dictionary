@@ -9,9 +9,9 @@ export default function Meaning (props){
 // go (loop) thru all definitions and examples and display them 
 return (<div key={index}>
  <p>
-    {definition.definition}
+    Definition: {definition.definition}
     <br />
-        <em>{definition.example}</em>
+        <em>Exampple: {definition.example}</em>
         </p>
 </div>);
     })}
