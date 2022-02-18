@@ -1,3 +1,27 @@
-.Dictionary{
-    background: pink;
+form {
+margin: 0 auto;
+display: block;
+font-size: 20px;
+
+
 }
+
+
+  
+      input {
+          width:300px;
+          margin: 0 auto;
+display: block;
+     
+        background-color: white;
+        border: none;
+        color: #8F8FDE;
+    /* width: 80%; */
+    border-bottom-left-radius: 25px;
+        padding: 8px;
+        box-shadow: 5px 6px 0px 1px rgba(0, 0, 255, .2);
+    
+    
+      }
+      
+     

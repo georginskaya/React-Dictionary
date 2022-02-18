@@ -1,13 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+   background: #c8c8f1;
+
+}
+
+
+
+
+
+.mainApp{
+margin: 0 auto;
+display: block;
+margin-top: 30px;
+padding-top: 30px;
+
+
+ }
+
 .App-header {
-margin: 30px 0;
+padding-left: 70px;
+padding-right: 70px;
+
 
 }
 
-.img-fluid{
-  max-width: 150px;
+
+h1 {
+
+  text-align: center;
+  padding-top: 3px;
+  color: #575757;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+
 }
+
+p{
+
+  text-align: center;
+  padding-top: 3px;
+  color: #575757;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+
+}
+
+
 
 .app_footer{
   text-align:center;
-  margin: 30px 0;
+  margin:50px;
+
 }
+
+.becreative_img{
+  max-width: 160px;
+  float:left;
+}
+
+.wordnik-word{font-weight: 800;font-size: 1.1em; font-style: italic;}
+.wordnik-word-partofspeech{font-size: .7rem;font-weight: 400;}
+#wordnik-wordofday {padding-left:15px;margin-top: 0px;}
+#wordnik-wordofday a {color: inherit;text-decoration-line: none;}
+#wordnik-wordofday-heading{margin-bottom: 0px;}

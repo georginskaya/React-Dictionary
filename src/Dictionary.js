@@ -25,8 +25,9 @@ function handelKeywordChange(event){
 }
 
     return (<div className="Dictionary">
-    <form onSubmit={submitSearch}>
-<input type="search" autoFocus={true}  onChange={handelKeywordChange}/>
+        
+    <form className="input-section" onSubmit={submitSearch}>
+<input type="search" placeholder="   ..." autoFocus={true}  onChange={handelKeywordChange}/>
 
 
     </form>
