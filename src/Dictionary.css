@@ -6,6 +6,15 @@ font-size: 20px;
 
 }
 
+.Dictionary section {
+
+    background: white;
+    padding: 19px;
+    border-bottom-left-radius: 25px;
+    margin: 20px;
+     box-shadow: 5px 6px 0px 1px rgba(0 0 255 /10%);
+}
+
 
   
       input {
