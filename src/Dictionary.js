@@ -31,6 +31,7 @@ function handelKeywordChange(event){
 
 
     </form>
+    <p className="simply">suggested words: solitude, pranayama, petrichor</p>
     
 
     <Results results={results} />

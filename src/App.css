@@ -34,17 +34,17 @@ h1 {
   padding-top: 3px;
   color: #575757;
   font-family: 'Josefin Sans', sans-serif;
- 
+ margin-bottom:0;
 
 }
 
 p.simply{
 
   text-align: center;
-  padding-top: 4px;
+  padding-top: 13px;
   color: #575757;
   font-family: 'Josefin Sans', sans-serif;
- 
+ font-size: 18px;
 
 }
 
