@@ -18,17 +18,11 @@ function App() {
       <main>
 
         <Dictionary />
-{/* 
-        <div className="wordOfTheDay">
-          <div className="container">
-<div class="col-sm">
-            <h3 id="wordnik-wordofday-heading">Word of the day!</h3>
-<div id="wordnik-wordofday"></div></div>
-          
-          
-         <div class="col-sm"><img src={thinking} className="thinking" alt="logo" /></div></div> 
 
-          </div> */}
+
+
+
+
       </main>
 </div>
 

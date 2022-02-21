@@ -25,12 +25,15 @@ function handelKeywordChange(event){
 }
 
     return (<div className="Dictionary">
-      
+       <div class="form-inline">
+           <div class="flex">
     <form className="input-section" onSubmit={submitSearch}>
-<input type="search" placeholder="   ..." autoFocus={true}  onChange={handelKeywordChange}/>
-
+<input type="search" placeholder="Simply" autoFocus={true}  onChange={handelKeywordChange}/>
+<button class="buttonSearch">Search</button>
 
     </form>
+    </div>
+    </div>
     <p className="simply">suggested words: solitude, pranayama, petrichor</p>
     
 
