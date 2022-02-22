@@ -4,15 +4,20 @@ margin: 0 auto;
 font-size: 20px;
 
 
+
+
 }
 .buttonSearch{
     border: none;
     border-top-right-radius: 25px;
     padding: 8px;
-        box-shadow: 5px 6px 0px 1px rgba(0, 0, 255, .2);
+     color: #868686;
 font-family: 'Josefin Sans', sans-serif;
 padding-top: 11px;
 padding-bottom: 6px;
+ 
+
+
 }
 
 .Dictionary section {
@@ -22,8 +27,9 @@ display: block;
     border-bottom-left-radius: 25px;
     margin: 0 auto;
      box-shadow: 5px 6px 0px 1px rgba(0 0 255 /10%);
-     max-width: 60%;
+     max-width: 76%;
      margin-bottom: 30px;
+     
 }
 
 /* .input-section{
@@ -41,7 +47,7 @@ display: block;
     /* width: 80%; */
     border-bottom-left-radius: 25px;
         padding: 8px;
-        box-shadow: 5px 6px 0px 1px rgba(0, 0, 255, .2);
+        
     
     
       }

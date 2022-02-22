@@ -1,7 +1,7 @@
 
 import './App.css';
 import Dictionary from './Dictionary';
-// import becreative from './becreative.png';
+import becreative from './confused.png';
 
 function App() {
   return (
@@ -9,15 +9,16 @@ function App() {
     
     <div className="container mainApp">
       <header className="App-header">
- <h1>Dictionary app</h1>
- <p class="simply">Simply look something up</p>
+        <img className="logo" src={becreative} />
+ {/* <h1>Dictionary app</h1> */}
+
           
      
       </header>
      
       <main>
 
-        <Dictionary />
+        <Dictionary defaultKeyword="yoga"/>
 
 
 
