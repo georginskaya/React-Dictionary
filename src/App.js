@@ -18,7 +18,7 @@ function App() {
      
       <main>
 
-        <Dictionary defaultKeyword="yoga"/>
+        <Dictionary defaultKeyword="sunrise"/>
 
 
 

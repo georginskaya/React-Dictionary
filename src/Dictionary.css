@@ -23,12 +23,13 @@ padding-bottom: 6px;
 .Dictionary section {
 display: block;
     background: white;
-    padding: 19px;
+    padding: 29px;
     border-bottom-left-radius: 25px;
     margin: 0 auto;
-     box-shadow: 5px 6px 0px 1px rgba(0 0 255 /10%);
+     box-shadow: 1px 6px 10px 5px rgba(0 0 255 /10%);
      max-width: 76%;
      margin-bottom: 30px;
+     line-height: 1,7em;
      
 }
 
