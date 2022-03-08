@@ -9,7 +9,7 @@ function App() {
     
     <div className="container mainApp">
       <header className="App-header">
-        <img className="logo" src={becreative} />
+        <img className="logo" alt ="img" src={becreative} />
  {/* <h1>Dictionary app</h1> */}
 
           
