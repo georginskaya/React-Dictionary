@@ -16,7 +16,8 @@ body{
 }
 
 h1{
-  font-family: 'Good Unicorn', sans-serif;
+  font-family: 'Good Unicorn', sans-serif !important;
+  font-size: 70px;
 }
 
 

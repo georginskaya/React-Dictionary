@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 import "./Dictionary.css";
+// import QuoteGenerator from './QuoteGenerator'
 import Results from "./Results.js";
 import Photos from "./Photos.js";
 
@@ -64,6 +65,7 @@ if(loaded){
 
     <Results results={results} />
     <Photos photos={photos} /> 
+    {/* <QuoteGenerator /> */}
    
      
     </div>

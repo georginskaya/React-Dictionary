@@ -1,7 +1,8 @@
 
 import './App.css';
 import Dictionary from './Dictionary';
-import becreative from './confused.png';
+
+
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
     
     <div className="container mainApp">
       <header className="App-header">
-        <img className="logo" alt ="img" src={becreative} />
- <h1>Dictionary</h1>
+        {/* <img className="logo" alt ="img" src={becreative} /> */}
+ <h1>It's an Om-Dictionary</h1>
 
           
      
