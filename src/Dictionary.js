@@ -47,7 +47,7 @@ function load() {
 if(loaded){
 
     return (<div className="Dictionary">
-      <p className="simply">What word do you want to look up?</p>
+      {/* <p className="simply">What word do you want to look up?</p> */}
        <div className="form-inline">
            <div className="flex">
     <form className="input-section" onSubmit={handleSubmit}>
