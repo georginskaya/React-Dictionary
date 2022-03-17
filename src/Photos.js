@@ -5,13 +5,13 @@ export default function Photos (props) {
 
     if (props.photos) {
     return (
-<section className="Photos"> 
+<div className="Photos"> 
 <div className="row">
 
 {props.photos.map(function(photo,index){
 return (
-    <div className="col-4" key={index} alt ="img">
-        <a href={photo.src.original} target="_blank" rel="noreferrer">
+    <div className="col-12" key={index} alt ="img">
+        <a href={photo.src.original} rel="noopener noreferrer" target="_blank">
     <img src={photo.src.landscape} alt ="img" className="img-fluid" />
 </a>
 </div> 
@@ -19,7 +19,7 @@ return (
 
 })}
 </div>
-</section>
+</div>
 
     );
 } else {

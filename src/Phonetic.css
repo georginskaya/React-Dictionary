@@ -1,6 +1,7 @@
 .Phonetic{
     height: 50px;
-    
+    width: 300px;
+   
 }
 
 .Phonetic a{
@@ -13,6 +14,7 @@
     font-size: 15px;
     margin-right: 10px;
     font-weight: 500;
+
 
 }
 

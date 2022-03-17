@@ -7,7 +7,12 @@ export default function Example (props) {
             <div className="Example">
                {props.examples.map(function(exampleElement, index){
                     return ( 
-                        <div key={index}>{exampleElement}</div>
+                        <div key={index}>{exampleElement}
+                        
+                        
+                        
+                        </div>
+
                     );
                 })}
             </div>

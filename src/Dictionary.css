@@ -2,12 +2,29 @@ form {
 margin: 0 auto;
 
 font-size: 20px;
-
+margin-top: 30px;
 
 
 
 }
-.buttonSearch{
+
+.input-field{
+    border-bottom: 2px groove ;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    background: rgba(250, 248, 245, 0.82);
+
+
+      width:170px;
+        
+        color: #575757;
+    
+    border-bottom-left-radius: 25px;
+        padding: 8px;
+}
+
+/* .buttonSearch{
     border: none;
     border-top-right-radius: 25px;
     padding: 8px;
@@ -17,19 +34,24 @@ padding-top: 11px;
 padding-bottom: 6px;
  
 
-
-}
+} */
 
 .Dictionary section {
-display: block;
-    background: white;
-    padding: 29px;
+    display: block;
+    padding-right: 3px;
+    
+
+    background: rgba(250, 248, 245, 0.82);
+    padding-bottom: 9px;
+    padding-top: 26px;
     border-bottom-left-radius: 25px;
-    margin: 0 auto;
-     box-shadow: 1px 6px 10px 5px rgba(0 0 255 /10%);
-     max-width: 76%;
-     margin-bottom: 30px;
+   border-bottom: 2px groove ;
+ 
+     /* box-shadow: 1px 6px 10px 5px rgba(0 0 255 /10%); */
+    float: left;
+    
      line-height: 1,7em;
+  
      
 }
 
@@ -38,23 +60,9 @@ display: block;
     margin: 0 auto !important;
 } */
   
-      input {
-          width:300px;
+      
   
-     
-        background-color: white;
-        border: none;
-        color: #575757;
-    /* width: 80%; */
-    border-bottom-left-radius: 25px;
-        padding: 8px;
-        
-    
-    
-      }
-      .flex {
-   display: flex;
-   flex-direction: row;
-}
+
+
       
      

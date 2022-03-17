@@ -1,5 +1,7 @@
 .Results{
     margin-top: 15px;
+    float: right;
+    margin-right: 0 !important;
 }
 
 h2 {
