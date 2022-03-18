@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
 form {
 margin: 0 auto;
 
@@ -5,6 +9,26 @@ font-size: 20px;
 margin-top: 30px;
 
 
+
+}
+
+.credits{
+    border-left: 2px groove ;
+    border-top: none;
+    border-right: none;
+    border-bottom:none;
+   
+
+}
+
+.titleDictio
+{
+   margin-top: 100px;
+   color: #575757;
+    transform: rotate(90deg);
+   
+   font-size: 30px;
+  font-family:  'Josefin Sans', sans-serif;
 
 }
 
@@ -16,7 +40,7 @@ margin-top: 30px;
     background: rgba(250, 248, 245, 0.82);
 
 
-      width:170px;
+      width:190px;
         
         color: #575757;
     
@@ -38,8 +62,8 @@ padding-bottom: 6px;
 
 .Dictionary section {
     display: block;
-    padding-right: 3px;
-    
+    padding: 10px;
+  width:80%;
 
     background: rgba(250, 248, 245, 0.82);
     padding-bottom: 9px;

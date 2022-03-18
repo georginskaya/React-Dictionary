@@ -26,7 +26,7 @@ axios.get(apiUrl).then(handleResponse);
 let pexelsApiKey ="563492ad6f917000010000015bc292821b8b4a038bb394077696de49";
 let pexelsApiUrl =`https://api.pexels.com/v1/search?query=${keyWord}&per_page=4`;
 let headers = {"Authorization" : `
-er ${pexelsApiKey}`};
+Bearer ${pexelsApiKey}`};
 
 axios.get(pexelsApiUrl, { headers: headers })
     .then(handlePexelsResponse);
@@ -84,7 +84,10 @@ if(loaded){
      
     </div>   
     
-     <div className="col-1">dictio</div>
+     <div className="col-1 credits"><div className="titleDictio">Dictio </div>
+     <div className="titleDictio">Coded</div><div className="titleDictio">by </div> <div className="titleDictio">Alyona</div>
+     
+     </div>
     
     </div></div>
     
