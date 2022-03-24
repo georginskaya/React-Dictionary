@@ -17,7 +17,7 @@ h1{
  
   font-size: 120px;
   text-align: left;
-  padding-top: 3px;
+  padding-top: 17px;
   color: #575757;
   font-family: 'Josefin Sans', sans-serif;
  margin-bottom:0;
@@ -26,9 +26,9 @@ h1{
 
 
 .mainApp{
+ margin: 0;
  
- 
-  margin-top: 3px;
+  
 /* margin: 0; */
 /* display: block; */
 /* margin-top: 30px;
@@ -55,9 +55,9 @@ p.simply{
 
   text-align: left;
   padding-top: 13px;
-  color: #575757;
+  color: #575757; 
   font-family: 'Josefin Sans', sans-serif;
- font-size: 18px;
+ font-size: 19px;
 
 }
 

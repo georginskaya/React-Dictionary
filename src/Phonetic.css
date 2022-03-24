@@ -1,7 +1,23 @@
+
+
 .Phonetic{
-    height: 50px;
-    width: 370px;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
    
+}
+
+.Audio-button{
+    font-size: 22px;
+    color: rebeccapurple;
+    opacity: 0.7;
+     border: 1px solid #ddd;
+     padding: 6px 10px;
+    border-radius: 20px; 
+    transition: all 200ms ease-in-out;
+    float: left;
+cursor: pointer;
+
 }
 
 .Phonetic a{
@@ -18,7 +34,7 @@
 
 }
 
-.Phonetic a:hover {
+.Audio-button:hover {
     background-color: plum;
     color: white;
 }
@@ -26,5 +42,6 @@
 .Phonetic .text{
     opacity:0.4;
      font-weight: bold;
+     padding-left: 12px;
    
 }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 form {
 margin: 0 auto;
@@ -11,26 +11,81 @@ margin-top: 30px;
 
 
 }
+.galery{
+      margin-left: 0;
+ 
+}
 
 .credits{
+
+  padding-left: 5%;
+  
+  display: flex;
+  flex-direction: column;
     border-left: 2px groove ;
     border-top: none;
     border-right: none;
     border-bottom:none;
+    
+     align-items: center;
+
+     position: fixed;
+  top: 0;
+  right: 4%;
+  height: 100vh;
    
+
+}
+.alyona{
+  color:rebeccapurple;
+  text-decoration: none;
 
 }
 
 .titleDictio
 {
-   margin-top: 100px;
+  
+   display: flex;
+ flex-direction: column;
+   margin-top: 40px;
+  
+  flex-direction: column;
    color: #575757;
-    transform: rotate(90deg);
+    opacity: 0.3;
    
-   font-size: 30px;
-  font-family:  'Josefin Sans', sans-serif;
+font-size: 35px;
+font-family: 'Nova Mono', monospace;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+ font-weight: 500;
 
 }
+
+.reactLogo{
+  width:73px;
+ opacity: 0.4;
+  margin-top: 20px;
+  animation-name: spin;
+  animation-duration: 20000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+
+}
+
+
 
 .input-field{
     border-bottom: 2px groove ;

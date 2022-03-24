@@ -4,6 +4,9 @@ import "./Dictionary.css";
 // import QuoteGenerator from './QuoteGenerator'
 import Results from "./Results.js";
 import Photos from "./Photos.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import atom from "./Atom.png";
+
 
 
 
@@ -84,8 +87,11 @@ if(loaded){
      
     </div>   
     
-     <div className="col-1 credits"><div className="titleDictio">Dictio </div>
-     <div className="titleDictio">Coded</div><div className="titleDictio">by </div> <div className="titleDictio">Alyona</div>
+     <div className="col-1 credits">
+
+         <img src={atom} className="reactLogo" alt='react logo' />
+     
+     <div className="titleDictio">Dictionary</div>  <div className="titleDictio">made by </div> <span className="titleDictio"><a href="https://www.linkedin.com/in/olena-heorhinska-3b4b33137/" className="alyona">Alyona</a></span>
      
      </div>
     
