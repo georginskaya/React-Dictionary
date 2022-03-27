@@ -36,6 +36,10 @@ margin-top: 30px;
    
 
 }
+
+.input-field:focus{
+    outline: none;
+}
 .alyona{
   color:rebeccapurple;
   text-decoration: none;
@@ -88,6 +92,7 @@ text-orientation: mixed;
 
 
 .input-field{
+  margin-left: 20px;
     border-bottom: 2px groove ;
     border-top: none;
     border-right: none;
@@ -117,7 +122,7 @@ padding-bottom: 6px;
 
 .Dictionary section {
     display: block;
-    padding: 10px;
+    padding: 14px;
   width:80%;
 
     background: rgba(250, 248, 245, 0.82);
@@ -125,13 +130,46 @@ padding-bottom: 6px;
     padding-top: 26px;
     border-bottom-left-radius: 25px;
    border-bottom: 2px groove ;
- 
+ margin-left: 20px;
      /* box-shadow: 1px 6px 10px 5px rgba(0 0 255 /10%); */
     float: left;
     
      line-height: 1,7em;
   
      
+}
+
+@media only screen and (max-width: 800px) {
+ .credits{
+
+     position: fixed;
+  top: 0;
+  left: 2%;
+     border-right: 2px groove ;
+     border-left: 0;
+  margin-left: 70px;
+  
+
+}
+
+.titleDictio
+{
+  
+font-size: 25px;
+padding-right: 93px
+
+
+}
+
+.reactLogo{
+  margin-right: 93px;
+}
+
+.Dictionary section {
+    
+  width: 900px !important;
+
+}
 }
 
 /* .input-section{

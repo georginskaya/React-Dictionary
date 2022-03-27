@@ -45,3 +45,12 @@ cursor: pointer;
      padding-left: 12px;
    
 }
+
+@media only screen and (max-width: 800px) {
+ .Phonetic{
+    height: 70px;
+   
+   
+}
+
+}

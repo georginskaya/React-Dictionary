@@ -1,12 +1,18 @@
 .Photos img {
     border-radius: 1px;
     opacity: 0.8;
-  
-  
+    max-width: 105%;
+   
+
  
     
 }
 
+@media only screen and (max-width: 800px) {
+  .Photos {
+  display: none;
+  }
 
+}
 
  /* MAKE [HOTOS AND CREDITS HAVE STICKY POSITION */

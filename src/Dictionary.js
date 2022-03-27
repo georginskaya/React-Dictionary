@@ -68,7 +68,7 @@ if(loaded){
        <div className="form-inline">
            <div className="flex">
     <form className="input-section" onSubmit={handleSubmit}>
-<input className="input-field" type="search" placeholder="   ...." autoFocus={true}  defaultValue={props.defaultKeyword} onChange={handelKeywordChange}/>
+<input className="input-field" type="search" placeholder="   ...."  defaultValue={props.defaultKeyword} onChange={handelKeywordChange}/>
 {/* <button className="buttonSearch">Search</button> */}
 
     </form>
