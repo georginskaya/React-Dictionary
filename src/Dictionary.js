@@ -4,7 +4,7 @@ import "./Dictionary.css";
 // import QuoteGenerator from './QuoteGenerator'
 import Results from "./Results.js";
 import Photos from "./Photos.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import atom from "./Atom.png";
 
 
