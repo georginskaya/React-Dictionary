@@ -19,7 +19,7 @@ margin-top: 30px;
 .credits{
 
   padding-left: 5%;
-  
+  text-shadow: 1px -1px 1px #fff, 1px 1px 1px #000;
   display: flex;
   flex-direction: column;
     border-left: 2px groove ;
@@ -92,13 +92,11 @@ text-orientation: mixed;
 
 
 .input-field{
-  margin-left: 20px;
-    border-bottom: 2px groove ;
-    border-top: none;
-    border-right: none;
-    border-left:none;
+  
+    border: none;
+   margin-left: 34px;
     background: rgba(250, 248, 245, 0.82);
-
+box-shadow: #c9c8c8af 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.379) -3px -3px 6px 1px inset;
 
       width:190px;
         
@@ -123,20 +121,20 @@ padding-bottom: 6px;
 .Dictionary section {
     display: block;
     padding: 14px;
-  width:80%;
-
+  max-width:90%;
+margin-top: 24px;
     background: rgba(250, 248, 245, 0.82);
     padding-bottom: 9px;
     padding-top: 26px;
     border-bottom-left-radius: 25px;
-   border-bottom: 2px groove ;
- margin-left: 20px;
+   box-shadow: #c9c8c8af -3px 3px 6px 0px, rgba(255, 255, 255, 0.379) -3px -3px 6px 1px;
+ margin-left: 34px;
      /* box-shadow: 1px 6px 10px 5px rgba(0 0 255 /10%); */
     float: left;
     
      line-height: 1,7em;
   
-     
+     margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 800px) {

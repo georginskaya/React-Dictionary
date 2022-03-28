@@ -8,3 +8,21 @@ h2 {
     font-size: 40px;
     font-weight: bold;
 }
+.audiobox{
+
+     display: block;
+    padding: 14px;
+  width:80%;
+
+    background: rgba(250, 248, 245, 0.82);
+    padding-bottom: 9px;
+    padding-top: 26px;
+    
+   
+ margin-left: 20px;
+     /* box-shadow: 1px 6px 10px 5px rgba(0 0 255 /10%); */
+    float: left;
+    
+     line-height: 1,7em;
+
+}

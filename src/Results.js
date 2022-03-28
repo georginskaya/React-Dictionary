@@ -10,7 +10,7 @@ export default function Results (props){
     if(props.results){
 return (
     <div className="Results">
-        <section>  
+        <div className="audiobox">  
        
         {/* <h2>{props.results.word}</h2> */}
        {props.results.phonetics.map(function(phonetic, index){
@@ -20,7 +20,7 @@ return (
     </div>
            );
        })}
-       </section>  
+       </div>  
         {props.results.meanings.map(function(meaning, index){
 return (
     // to make it be displayed as a list - use index
