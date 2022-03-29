@@ -30,14 +30,10 @@ function App() {
       </main>
 </div>
 
-<footer className="app_footer"><small>Coded by Alyona</small>
- {/* <div className="bear">
-        <img className="logo" alt ="img" src={think} />
-         <img className="success" alt ="img" src={spirit} />
-         </div> */}
 
 
-</footer>
+
+
       
     </div>
   );

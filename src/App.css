@@ -98,3 +98,9 @@ margin-left: 34px;
   }
 
 }
+
+@media only screen and (max-width: 400px) { h1 {
+  font-size: 60px;
+  }
+
+}
