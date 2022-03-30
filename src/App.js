@@ -20,7 +20,7 @@ function App() {
       <main>
       
 
-        <Dictionary defaultKeyword="mum"/>
+        <Dictionary defaultKeyword="serenity"/>
       
 
  
