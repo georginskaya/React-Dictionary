@@ -4,7 +4,7 @@ This is a one-page React dictionary built according to Single Responsibility Pri
 
 This project was built with the help of multiple APIs-integration, specific components, React Loops, and React Use States.
 
-Stack: HTML5, React, Axios, CSS
+Stack: HTML5, React, Axios, CSS, Bootstrap
 
 URL: https://flamboyant-wescoff-d7c8f0.netlify.app/ 
 
