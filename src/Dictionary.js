@@ -1,4 +1,6 @@
+
 import React, { useState } from "react";
+import { FaGithub } from "react-icons/fa";
 import axios from "axios";
 import "./Dictionary.css";
 // import QuoteGenerator from './QuoteGenerator'
@@ -22,15 +24,14 @@ export default function Dictionary(props) {
   function submitSearch() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`;
     axios.get(apiUrl).then(handleResponse);
-    let pexelsApiKey =
-      "GBa2K6rdQfOwKomHIEjylJ1BFsmIocb7uJLLbp14KUFnVAXrPv8jYfXn";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyWord}&per_page=4`;
+    let ApiKey = "a7a6554f85t5e58398103479eoba472e";
+    let ApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyWord}&key=${ApiKey}`;
     let headers = {
       Authorization: `
-Bearer ${pexelsApiKey}`,
+Bearer ${ApiKey}`,
     };
 
-    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
+    axios.get(ApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
 
   function handleSubmit(event) {
@@ -81,17 +82,18 @@ Bearer ${pexelsApiKey}`,
 
           <div className='col-1 credits'>
             <img src={atom} className='reactLogo' alt='react logo' />
+            <div className='titleDictio'>React</div>{" "}
             <div className='titleDictio'>Dictionary</div>{" "}
-            <div className='titleDictio'>made by </div>{" "}
-            <span className='titleDictio'>
+            <span className='gitHubIcon'>
               <a
                 href='https://www.linkedin.com/in/olena-heorhinska-3b4b33137/'
                 className='alyona'
               >
-                Alyona
+                <FaGithub />
               </a>
             </span>
           </div>
+         
         </div>
       </div>
     );

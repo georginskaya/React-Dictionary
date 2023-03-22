@@ -31,6 +31,17 @@ form {
   height: 100vh;
 }
 
+.gitHubIcon {
+  position: absolute;
+  bottom: 40px;
+
+  flex-direction: column;
+
+  opacity: 0.3;
+
+  font-size: 45px;
+}
+
 .input-field:focus {
   outline: none;
 }
