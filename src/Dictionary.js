@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import axios from "axios";
@@ -86,14 +85,13 @@ Bearer ${ApiKey}`,
             <div className='titleDictio'>Dictionary</div>{" "}
             <span className='gitHubIcon'>
               <a
-                href='https://www.linkedin.com/in/olena-heorhinska-3b4b33137/'
+                href='https://github.com/georginskaya/React-Dictionary'
                 className='alyona'
               >
                 <FaGithub />
               </a>
             </span>
           </div>
-         
         </div>
       </div>
     );
